@@ -1,0 +1,36 @@
+# Proprietary and confidential data
+data/raw/
+data/private/
+*.xlsx
+*.xls
+*.csv
+
+# Trained machine learning models
+models/
+*.pkl
+*.pickle
+*.joblib
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
